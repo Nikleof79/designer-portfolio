@@ -1,0 +1,27 @@
+#about{
+    position: relative;
+    right: 0;
+}
+#recent{
+    position: relative;
+    right: 0;
+}
+#projects{
+    position: relative;
+    left: 0;
+}
+
+#about , #recent , #projects{
+    animation: startFromLeft  500ms ease-out;
+}
+
+@keyframes startFromLeft {
+    0%{
+        position: relative;
+        left: 102vw;
+    }
+    100%{
+        position: relative;
+        left: 0;
+    }
+}

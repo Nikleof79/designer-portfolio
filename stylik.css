@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Ubuntu&display=swap");
+
+*{
+    overflow-x: hidden !important;
+}
+
+:root {
+  --primary: #2f0b68;
+  --secondary: #1a073a;
+  --light-primary: #5217b1;
+  --light-secondary: #b11ebe;
+}
+
+body {
+  color: #eee;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300 !important;
+  font-style: normal;
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  /* background: rgb(53,21,93);  */
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.card {
+  max-width: 20em;
+  min-width: 90px;
+  width: fit-content;
+  padding: 0.375rem 0.5rem;
+  border: 1px var(--primary) solid;
+  border-radius: 15px;
+  box-shadow: 0px 0px 12.5px rgb(85, 75, 76);
+  background-color: var(--light-primary);
+  background: linear-gradient(
+    0deg,
+    var(--light-primary) 0%,
+    var(--light-secondary) 100%
+  );
+  margin: 10px;
+}
+
+.card-img{
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+  border: transparent;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100vw;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#about {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+}
+#recent {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+}
+#Name {
+  display: block;
+  /* height: 7rem; */
+}
+#upLine {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+#projects{
+    padding-top: 90px;
+}
+#avatarka {
+  aspect-ratio: 1/1;
+  height: 6rem !important;
+  display: block;
+  width: auto;
+  border: transparent;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(255, 135, 155);
+  float: left;
+  margin: 7.5px;
+}
+
+@media (hover: hover) {
+  #Name:hover {
+    text-decoration: underline;
+  }
+}
+
+.d-flex{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.jc-evenly{
+    justify-content: space-evenly !important;
+}
+
+footer{
+    width: 100vw;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 1, 112);
+}
