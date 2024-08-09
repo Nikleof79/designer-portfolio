@@ -11,8 +11,11 @@
     left: 0;
 }
 
-#about , #recent , #projects{
+#recent , #projects{
     animation: startFromLeft  500ms ease-out;
+}
+#about{
+    animation: startFromRight  500ms ease-out;
 }
 
 @keyframes startFromLeft {
@@ -23,5 +26,16 @@
     100%{
         position: relative;
         left: 0;
+    }
+}
+
+@keyframes startFromRight {
+    0%{
+        position: relative;
+        right: 102vw;
+    }
+    100%{
+        position: relative;
+        right: 0;
     }
 }
