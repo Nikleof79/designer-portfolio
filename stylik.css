@@ -117,31 +117,13 @@ footer{
     text-align: center;
     background-color: rgb(1, 1, 112);
 }
-/* Custom CSS */
-.button.is-dark {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* Light text color for contrast */
-  border: 1px solid #444; /* Optional: darker border */
+.link{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
 }
-
-.button.is-dark:hover {
-  background-color: #444; /* Slightly lighter on hover */
-  border-color: #555; /* Optional: lighter border on hover */
-}
-
-.button.is-dark:focus {
-  box-shadow: 0 0 0 0.125rem rgba(255, 255, 255, 0.25); /* Optional: focus outline */
-}
-.button.is-dark-primary {
-  background-color: #1a1a1a; /* Darker background color */
-  color: #e0e0e0; /* Lighter text color */
-  border: 1px solid #2a2a2a; /* Dark border */
-}
-
-.button.is-dark-primary:hover {
-  background-color: #333; /* Slightly lighter on hover */
-  border-color: #3a3a3a; /* Lighter border on hover */
-}
-.button.is-dark, .button.is-dark:hover {
-  transition: background-color 0.3s, border-color 0.3s;
+.link:hover{
+  text-decoration: underline;
+  color: #c2a2ff;
 }
